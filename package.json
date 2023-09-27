@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  },
+  "name": "memo-project",
+  "version": "1.0.0",
+  "description": "Grade A. Pls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "By Nisit Lover",
+  "license": "ISC"
+}

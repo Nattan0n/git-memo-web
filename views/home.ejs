@@ -1,0 +1,35 @@
+<%- include("includes/header.ejs")%>
+    <link rel="stylesheet" href="/css/home.css">
+    
+</head>
+<body>
+    <%- include("includes/navbar.ejs")%>
+    <% if (allMem.length > 0) { %>
+    <div class="grid">
+        <% 
+        const sortedMem = allMem.reverse();
+        for (let mem of sortedMem) {%>
+        <div class="show_content">
+            <div class="bar">
+                <h2><%= mem.memo_title %></h2>
+                <form action="/delete/<%= mem.memo_id %>" method="POST">
+                    <input type="hidden" name="id" value="<%= mem.memo_id %>">
+                    <button class="btn" type="submit">❌</button>
+                </form>
+            </div>
+            <div class="time">
+                <p><%= mem.createdatstr%></p>
+            </div>
+            <div class="des">
+                <p class="content">
+                    <%= mem.memo_body %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+    </div>
+    <% } else { %>
+    <h1> No Memory</h1>
+    <% } %>
+</body>
+</html>

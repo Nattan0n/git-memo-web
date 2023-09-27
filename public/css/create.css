@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #053B50;
+}
+.create {
+    color:#FFF5E0;
+}
+
+.add-item-form {
+    width: 30rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.add-item-form button {
+    position: relative;
+    left: 30%;
+}
+.form-control {
+    margin: 1rem 0;
+}
+.form-control label,
+.form-control input {
+    display: block;
+}
+.form-control label {
+    color: #FFF5E0;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control textarea {
+    font: inherit;
+    border: 1px solid #f29544;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    height: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+    outline-color: #FF0303;
+}
+
+button {
+    height: 50px;
+    width: 40%;
+    border-radius: 5%;
+    font: inherit;
+    border: 1px solid #323673;
+    color: #FF0303;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #102C57;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+}
