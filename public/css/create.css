@@ -1,10 +1,12 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #053B50;
+    background: #000675;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .create {
-    color:#FFF5E0;
+    color:#ffffff;
 }
 
 .add-item-form {
@@ -25,7 +27,7 @@ body {
     display: block;
 }
 .form-control label {
-    color: #FFF5E0;
+    color: #ffffff;
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
@@ -33,17 +35,18 @@ body {
 .form-control input,
 .form-control textarea {
     font: inherit;
-    border: 1px solid #f29544;
+    border: 1px solid #141a4e;
     border-radius: 2px;
     font-size: 1.5rem;
     height: auto;
     width: 100%;
     margin-bottom: 3rem;
+    background-color: #584e8d70;;
 }
 
 .form-control input:focus,
 .form-control textarea:focus {
-    outline-color: #FF0303;
+    outline-color: #03ff42;
 }
 
 button {
@@ -52,15 +55,27 @@ button {
     border-radius: 5%;
     font: inherit;
     border: 1px solid #323673;
-    color: #FF0303;
-    background-color: #fff;
+    color: #000000;
+    background-color: #00ff2a;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #102C57;
+    background-color: #584e8d70;
     color: #fff;
 }
 h2 {
     text-align: center;
+    font-size: 40px;
+}
+form {
+    background-color:#080b35;
+    width: 25%;
+    margin: 200px auto 200px;
+    padding: 25px;
+    border: 1px solid #220049;
+    border-radius: 12px 12px 12px 12px;
+}
+main {
+    margin: 150px 150px auto 150px;
 }
